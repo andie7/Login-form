@@ -1,8 +1,8 @@
-let signupBtn = document.getElementById("signup");
-let loginBtn = document.getElementById("login");
+const signupBtn = document.getElementById(`signup`);
+const loginBtn = document.getElementById(`login`);
 
-let signupContainer = document.querySelector(`.signup-container`);
-let loginContainer = document.querySelector(`.login-container`);
+const signupContainer = document.querySelector(`.signup-container`);
+const loginContainer = document.querySelector(`.login-container`);
 
 loginBtn.addEventListener("click", () => {
   signupContainer.classList.add(`slide-up`);
