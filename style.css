@@ -185,3 +185,19 @@ body {
 .form-container a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  .form-container .form-title {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .signup-container {
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
